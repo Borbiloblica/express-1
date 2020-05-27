@@ -4,7 +4,7 @@ var data = require('./data/test.json');
 var app = express();
 const PORT = 3000;
 
-app.set('view engine'.'ejs'); //sent views to EJS
+app.set('view engine','ejs'); //sent views to EJS
 
 //this is how route is built in Express
 app.get('/', (req,res)=>{
