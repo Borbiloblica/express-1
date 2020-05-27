@@ -15,5 +15,5 @@ res.json(data);
 
 app.listen(PORT,()=>{
   console.log(`App is running on port ${PORT}`);
- / console.log(data);
+ // console.log(data);
 });
