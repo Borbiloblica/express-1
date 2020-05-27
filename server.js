@@ -8,13 +8,13 @@ app.set('view engine','ejs'); //sent views to EJS
 
 //this is how route is built in Express
 app.get('/', (req,res)=>{
-  var title = "Our Home Page"
+  var title = "Our Home Page";
   res.render('pages/index',{title:title});
 });
 
 app.get('/users', (req,res)=>{
   var title = "Our Home Page";
-  res.render('pages/index',{
+  res.render('users/index',{
     title:title,
     users:data
   });
